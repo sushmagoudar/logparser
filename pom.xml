@@ -31,11 +31,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.jenkins-ci.plugins</groupId>
-			<artifactId>log-parser</artifactId>
-			<version>2.3.1</version>
-		</dependency>		
 	</dependencies>
 
 	<build>
