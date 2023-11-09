@@ -1,21 +1,5 @@
-ok /setenv/
+warn /\[WARNING\]/
 
-# match line starting with ‘error ‘, case-insensitive
+jenkins /JENKINS/
 
-error /(?i)^error /
-
-# list of warnings here
-
-warning /[Ww]arning/
-
-warning /WARNING/
-
-# creates an access link to lines in the report containing ‘SUCCESS’
-
-info /SUCCESS/
-
-# each line containing ‘INFO’ represents the start of a section for grouping errors and warnings found after the line.
-
-# creates a quick access link.
-
-start /INFO/
+logParserPublisherWorkflowStep /\[Pipeline\] logParser/
