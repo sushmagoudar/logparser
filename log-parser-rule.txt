@@ -1,5 +1,9 @@
 warn /\[WARNING\]/
 
+info /\[INFO\]/
+
+error /\[ERROR\]/
+
 jenkins /JENKINS/
 
 logParserPublisherWorkflowStep /\[Pipeline\] logParser/
